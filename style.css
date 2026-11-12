@@ -1,0 +1,28 @@
+body {
+  background-color: #07090e;
+  color: #e2e8f0;
+  font-family: 'Montserrat', sans-serif;
+}
+.text-glow {
+  text-shadow: 0 0 12px rgba(0, 240, 255, 0.6);
+}
+.box-glow {
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.15);
+}
+.logo-img-glow {
+  filter: drop-shadow(0 0 15px rgba(0, 240, 255, 0.35));
+}
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #07090e;
+}
+::-webkit-scrollbar-thumb {
+  background: #171e2c;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00f0ff;
+}
